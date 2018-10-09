@@ -39,7 +39,7 @@ button.addEventListener('click', function(){
 
 let color = ['blue', 'green', 'purple', 'orange', 'yellow', 'red', 'pink', 'brown'];
 function getRandomColor(){
-    let randomColor = color[Math.floor(Math.random()*color.lenght)];
+    let randomColor = color[Math.floor(Math.random()*color.length)];
     return randomColor;
 }
 
