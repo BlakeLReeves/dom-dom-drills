@@ -1,5 +1,3 @@
-//document.addEventListener('DomContentLoaded', function(){
-
 let button = document.createElement('button');
 let buttonTxt = document.createTextNode('Add Square');
 let div = document.createElement('div');
@@ -61,4 +59,3 @@ function remove() {
         }
     }
 }
-//});
